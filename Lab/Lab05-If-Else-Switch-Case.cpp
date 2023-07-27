@@ -42,7 +42,7 @@ int main() {
     printf("enter score :\n");
     scanf("%s",&fixerror);
     if(sscanf(fixerror, "%d", &score) == 1){
-        if(score>80){
+        if(score>=80){
             printf("A !");
         }
         else if(score>=75){
